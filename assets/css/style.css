@@ -52,7 +52,6 @@ nav a {
 	margin-left: 15px;
 	padding-left: 15px;
 	color: #999;
-	text-decoration: none;
 	line-height: 18px;
 	border-left: 1px solid #efefef;
 }
@@ -63,6 +62,10 @@ nav a:first-child {
 
 nav a:hover {
 	color: #4aaaa5;
+}
+
+a {
+	text-decoration: none;
 }
 
 /*HEADER CSS STOPS HERE*/
@@ -280,6 +283,10 @@ footer p {
 		margin: 0 auto 15px auto;
 	}
 
+	#cat, #food, #nature, #nightlife, #abstract {
+		float: none;
+	}
+
 	.connect {
 		max-width: 30%;
 		margin: 130px auto 0 auto;
@@ -360,10 +367,6 @@ footer p {
 		padding: 20px 0;
 	}
 
-	p, a, #submit {
-		text-decoration: none;
-	}
-
   	nav {
 		float: none;
 		width: 90%;
@@ -393,7 +396,7 @@ footer p {
 	}
 
 	.content img {
-		width: 400px;
+		width: 100%;
 		float: none;
 		display: block;
 		margin: 0 auto 15px auto;
