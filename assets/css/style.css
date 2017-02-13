@@ -285,6 +285,13 @@ footer p {
 
 	#cat, #food, #nature, #nightlife, #abstract {
 		float: none;
+		background-size: cover;
+	}
+
+	.portfolioImg {
+		margin: 0 auto 15px auto;
+		width: 100%;
+    	height: 250px;
 	}
 
 	.connect {
@@ -324,11 +331,14 @@ footer p {
 
   	nav {
 		float: right;
-		display: inline-block;
 	}
 
-	#cat, #food, #nature, #nightlife, #abstract {
-		background-size: cover;
+	#cat, #nature, #abstract {
+		float: left;
+	}
+
+	#food, #nightlife {
+		float: right;
 	}
 
 	.portfolioImg {
